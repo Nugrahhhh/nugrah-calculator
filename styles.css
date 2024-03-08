@@ -17,7 +17,7 @@ body {
   height: 360px;
   border-radius: 8px;
   margin: 50px auto;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.007);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.356);
 }
 
@@ -25,7 +25,7 @@ body {
   padding: 10px;
   border-radius: 8px;
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.014);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,7 +38,7 @@ body {
   border-radius: 7px 7px 0px 0px;
   font-size: 24px;
   text-align: right;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.096);
   color: #fff;
   outline: none;
 }
@@ -54,7 +54,7 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.096);
   color: #fff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
   cursor: pointer;
