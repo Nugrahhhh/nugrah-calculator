@@ -1,15 +1,32 @@
 body {
-  background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: -webkit-linear-gradient(top, #201658, #1D24CA, #98ABEE);
+    background: -moz-linear-gradient(top, #201658, #1D24CA, #98ABEE);
+    background: -o-linear-gradient(top, #201658, #1D24CA, #98ABEE);
+    background: linear-gradient(to bottom, #201658, #1D24CA, #98ABEE);
+}
+
+
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 360px;
+  border-radius: 8px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.356);
 }
 
 .calculator {
-  width: 310px;
-  margin: 50px auto;
-  border: 2px solid #272323;
+  padding: 10px;
   border-radius: 8px;
-  background-color: #2b2b2b ;
-  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.90); /* Updated box-shadow */
-
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #display {
@@ -19,10 +36,9 @@ body {
   margin-bottom: 10px;
   border: none;
   border-radius: 7px 7px 0px 0px;
-  border-bottom: 2px solid #2b2b2b;
   font-size: 24px;
   text-align: right;
-  background-color: #221f1f;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   outline: none;
 }
@@ -34,13 +50,13 @@ body {
 }
 
 button {
-  padding: 15px;
+  padding: 13px;
   font-size: 20px;
   border: none;
   border-radius: 4px;
-  background-color: #252222;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -50,12 +66,12 @@ button:hover {
 }
 
 .nugrah {
-   width: 330px;
-  height: 72px;
+  width: 330px;
+  height: 62px;
   margin: 10px auto;
-  border: 1px solid #312929;
-  background-color: #312a2a;
-  box-shadow: 0px 0px 10px rgb(22, 20, 20);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .nugrah h1 {

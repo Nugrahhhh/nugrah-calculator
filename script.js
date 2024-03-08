@@ -18,17 +18,14 @@ function calculatePercentage() {
     document.getElementById("display").value = "Error";
   }
 }
-
 function clearDisplay() {
   displayValue = "";
   document.getElementById("display").value = displayValue;
 }
 
 function calculate() {
-  try {
-    displayValue = eval(displayValue);
-    document.getElementById("display").value = displayValue;
-  } catch (error) {
-    document.getElementById("display").value = "Error";
-  }
+  var displayValue = document.getElementById('display').value;
+      var replacedValue = displayValue.replace(/x/g, '*').replace(/:/g, '/'); // Replace 'x' with '*'
+      var result = eval(replacedValue);
+      document.getElementById('display').value = result;
 }
