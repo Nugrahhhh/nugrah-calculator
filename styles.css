@@ -4,10 +4,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: -webkit-linear-gradient(top, #201658, #1D24CA, #98ABEE);
-    background: -moz-linear-gradient(top, #201658, #1D24CA, #98ABEE);
-    background: -o-linear-gradient(top, #201658, #1D24CA, #98ABEE);
-    background: linear-gradient(to bottom, #201658, #1D24CA, #98ABEE);
+    background: -webkit-linear-gradient(top, #1D24CA, #98ABEE);
+    background: -moz-linear-gradient(top, #1D24CA, #98ABEE);
+    background: -o-linear-gradient(top, #1D24CA, #98ABEE);
+    background: linear-gradient(to bottom, #1D24CA, #98ABEE);
 }
 
 
